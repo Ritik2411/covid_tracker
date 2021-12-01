@@ -1,0 +1,34 @@
+.map_container{
+    height: 500px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;    
+}
+
+.map_container .leaflet-container{
+    height: 100%;
+}
+
+.info_flag{
+    height: 80px;
+    width: 100px;
+    background-size: cover;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+.info_country{
+    font-weight: bold;
+}
+
+.info_country .info_cases .info_recovered .info_deaths{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width:650px) {
+    .map_container{
+        height: 300px;
+    }
+}

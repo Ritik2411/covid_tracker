@@ -1,0 +1,38 @@
+.infobox{
+    flex: 1;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.infobox-green{
+    border-top: 2px solid green;
+}
+
+.infobox-red{
+    border: 2px solid red;
+}
+
+.infobox_container{
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    flex: 1;
+}
+
+.infobox_title{
+    color: gray;
+    font-size: 15px;
+}
+
+.infobox_cases{
+    font-weight: bold;
+    color: #cc1034;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.infobox_total{
+    color: gray;
+    font-size: 15px;
+}
